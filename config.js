@@ -7,8 +7,8 @@ System.config({
   },
   map: {
     vue: "npm:vue@2.5.16/dist/vue.esm.browser.js",
-    devextreme: "npm:devextreme@18.1-unstable",
-    "devextreme-vue": "npm:devextreme-vue@18.1-unstable",
+    devextreme: "npm:devextreme@18.1",
+    "devextreme-vue": "npm:devextreme-vue",
     jszip: "npm:jszip@3.1.3/dist/jszip.min.js",
 
     // SystemJS plugins
