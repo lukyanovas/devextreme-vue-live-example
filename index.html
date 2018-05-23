@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/devextreme@18.1-unstable/dist/css/dx.common.css" />
+	<link rel="stylesheet" href="https://unpkg.com/devextreme@18.1-unstable/dist/css/dx.material.blue.light.css" />
+	<script src="https://unpkg.com/systemjs@0.19.31/dist/system.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript">
+		System.import('./index.js');
+	</script>
+</head>
+
+<body>
+	<div id="app">
+		<span v-if="false">Loading...</span>
+		<dx-data-grid
+      key-expr="orderId"
+      :allow-column-reordering="true"
+      :grouping="grouping"
+      :group-panel="groupPanel"
+      :paging="paging"
+      :selection="selection"
+      :filter-row="filterRow"
+      :data-source="sales"
+      :selected-row-keys="selectedKeys"
+      :columns="columns"
+			>
+		</dx-data-grid>
+	</div>
+</body>
+
+</html>
